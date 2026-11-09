@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Credo GET Users API" parallel="none">
+    <test name="User filtering API">
+        <classes>
+            <class name="ge.credo.tests.UserApiTest"/>
+        </classes>
+    </test>
+</suite>
